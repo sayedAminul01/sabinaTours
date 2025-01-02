@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your dream vacation in Goa with SabinaTours. We offer hotels, car rentals, scuba diving, and more!">
+    <meta name="keywords" content="Goa tours, hotel booking, car rental, scuba diving, party packages, bike rental">
+    <title>SabinaTours - Your Ultimate Goa Travel Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SabinaTours.com</div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="darkModeToggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <h1>Experience the Magic of Goa</h1>
+            <p>Your journey begins with SabinaTours</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800" alt="Luxury Hotel">
+                <h3>Hotel Booking</h3>
+                <p>Find your perfect stay from our curated collection of hotels</p>
+                <button class="book-button" data-service="Hotel Booking">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800" alt="Car Rental">
+                <h3>Car Rental</h3>
+                <p>Explore Goa at your own pace with our rental cars</p>
+                <button class="book-button" data-service="Car Rental">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800" alt="Scuba Diving">
+                <h3>Scuba Diving</h3>
+                <p>Discover the underwater beauty of Goa</p>
+                <button class="book-button" data-service="Scuba Diving">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800" alt="Bike Rental">
+                <h3>Bike Rental</h3>
+                <p>Freedom to explore every corner of Goa</p>
+                <button class="book-button" data-service="Bike Rental">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800" alt="Party Packages">
+                <h3>Party Packages</h3>
+                <p>Experience Goa's legendary nightlife</p>
+                <button class="book-button" data-service="Party Package">Book Now</button>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800" alt="Water Sports">
+                <h3>Water Sports</h3>
+                <p>Thrilling water adventures await</p>
+                <button class="book-button" data-service="Water Sports">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About SabinaTours</h2>
+            <p>Since 2015, SabinaTours has been the premier travel partner in Goa, offering comprehensive tourism services that cater to every traveler's needs. Our mission is to provide unforgettable experiences while ensuring comfort, safety, and value for our clients.</p>
+            <p>We pride ourselves on our local expertise, personalized service, and commitment to sustainable tourism practices.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-phone"></i> +91 9394921553</p>
+                <p><i class="fas fa-envelope"></i> info@sabinatours.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Calangute, Goa, India</p>
+                <div class="social-links">
+                    <a href="https://wa.me/9394921553" class="whatsapp-link">
+                        <i class="fab fa-whatsapp"></i> Chat with us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 SabinaTours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
